@@ -1,0 +1,41 @@
+body {
+  color: #f64f9e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+#image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app-icon {
+  border-radius: 1em;
+  width: 16em;
+  height: 16em;
+}
+
+h1,
+h3,
+p {
+  text-align: center;
+}
+
+a {
+  color: #6e46b9;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 300px;
+  }
+}
